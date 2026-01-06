@@ -1,5 +1,5 @@
 /* Nord Theme CSS for Jekyll Blog */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 
 /* Nord Color Palette */
 :root {
@@ -29,7 +29,7 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Ubuntu Mono', 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   background: linear-gradient(135deg, var(--nord0) 0%, var(--nord1) 50%, var(--nord2) 100%);
   color: var(--nord4);
   min-height: 100vh;
@@ -203,22 +203,21 @@ body {
 .blog-content {
   background: rgba(59, 66, 82, 0.6);
   border-radius: var(--roundness);
-  padding: 2.5rem;
+  padding: 2rem 2.5rem 2.5rem;
   backdrop-filter: blur(10px);
   border: 1px solid var(--nord3);
   box-shadow: 0 10px 40px rgba(46, 52, 64, 0.4);
-  line-height: 1.8;
+  line-height: 1.3;
 }
 
 .blog-content h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   color: var(--nord6);
-  text-align: center;
 }
 
 .blog-content h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 1.5rem 0 0.8rem;
   color: var(--nord5);
 }
@@ -239,6 +238,16 @@ body {
   text-decoration: underline;
 }
 
+.blog-content ul,
+.blog-content ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0;
+}
+
 /* Post List Styling */
 .post-list {
   list-style: none;
@@ -255,15 +264,15 @@ body {
 .post-preview .blog-content {
   background: var(--nord1);
   border-radius: var(--roundness);
-  padding: 2.5rem;
+  padding: 2rem 2.5rem 2.5rem;
   backdrop-filter: blur(10px);
   border: 1px solid var(--nord3);
   box-shadow: 0 10px 40px rgba(46, 52, 64, 0.4);
-  line-height: 1.8;
+  line-height: 1.3;
 }
 
 .post-preview h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 0.3rem;
   margin-top: 0;
 }
@@ -301,13 +310,13 @@ body {
   margin-top: 0;
 }
 
-.post-preview .post-content h1 { font-size: 1.4rem; }
-.post-preview .post-content h2 { font-size: 1.3rem; }
-.post-preview .post-content h3 { font-size: 1.2rem; }
+.post-preview .post-content h1 { font-size: 1.6rem; }
+.post-preview .post-content h2 { font-size: 1.5rem; }
+.post-preview .post-content h3 { font-size: 1.4rem; }
 
 .post-preview .post-content p {
   margin-bottom: 1rem;
-  line-height: 1.7;
+  line-height: 1.3;
   color: var(--nord4);
 }
 
@@ -318,7 +327,7 @@ body {
 }
 
 .post-preview .post-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .post-preview .post-content code {
@@ -380,28 +389,6 @@ body {
   background: var(--nord3);
   opacity: 0.3;
 }
-
-/* Single Post Styling */
-.single-post h1 {
-  font-size: 2rem;
-  margin-bottom: 0.3rem;
-  color: var(--nord6);
-  line-height: 1.3;
-}
-
-.single-post .post-date {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.single-post .post-date::after {
-  width: 100%;
-  height: 1px;
-  opacity: 0.4;
-}
-
-
-
 
 
 .share-buttons {
@@ -518,7 +505,7 @@ body {
 
 .search-result h2 {
   margin: 0 0 0.5rem 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .search-result h2 a {

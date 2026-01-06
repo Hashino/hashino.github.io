@@ -55,7 +55,7 @@ class AstronautManager {
     // Random size between 20px and 400px with equal probability
     const minSize = 20;
     const maxSize = 400;
-    
+
     return Math.floor(Math.random() * (maxSize - minSize + 1)) + minSize;
   }
 
@@ -66,11 +66,11 @@ class AstronautManager {
     const maxDuration = 90;
     const minSize = 20;
     const maxSize = 400;
-    
+
     // Inverse relationship: larger size = shorter duration (faster)
     const normalizedSize = (size - minSize) / (maxSize - minSize);
     const duration = maxDuration - (normalizedSize * (maxDuration - minDuration));
-    
+
     return duration;
   }
 
@@ -78,13 +78,13 @@ class AstronautManager {
     const spawnAstronaut = () => {
       if (this.isActive) {
         this.createAstronaut();
-        
+
         // Random interval between 60-300 seconds (1-5 minutes) for next attempt
         const nextSpawn = (Math.random() * 240 + 60) * 1000;
         setTimeout(spawnAstronaut, nextSpawn);
       }
     };
-    
+
     // Initial delay before first astronaut (30-120 seconds)
     const initialDelay = (Math.random() * 90 + 30) * 1000;
     setTimeout(spawnAstronaut, initialDelay);
