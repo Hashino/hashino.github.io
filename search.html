@@ -1,0 +1,27 @@
+---
+layout: home
+permalink: /search/
+---
+
+<div class="blog-content">
+  <h1>Search Results</h1>
+  <div id="searchQuery" class="search-query"></div>
+  <div id="searchResults" class="search-results-page">
+    <div class="search-hint">Enter a search term in the URL (?q=your-search)</div>
+  </div>
+</div>
+
+<script>
+  const searchData = [
+    {% for post in site.posts %}
+    {
+      title: {{ post.title | jsonify }},
+      content: {{ post.content | strip_html | jsonify }},
+      url: {{ post.url | jsonify }},
+      date: {{ post.date | date: "%B %d, %Y" | jsonify }},
+      excerpt: {{ post.excerpt | strip_html | truncatewords: 30 | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+</script>
+<script src="/assets/js/search.js"></script>
