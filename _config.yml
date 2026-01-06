@@ -4,3 +4,10 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Pagination settings
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
