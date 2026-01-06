@@ -1,41 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="icon" type="image/png" href="https://github.com/hashino.png">
-    <link rel="stylesheet" href="/assets/css/style.css">
-  </head>
-  <body>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    
-    <nav class="top-nav">
-      <div class="nav-container">
-        <a href="/" class="nav-title">
-          <img src="https://github.com/hashino.png" alt="Hashino" class="profile-pic">
-        </a>
-        {% include search.html type='form' %}
-      </div>
-    </nav>
+---
+layout: base
+---
 
-    <div class="main-container">
-      <div class="content-area">
-        <div class="blog-content">
-          <article class="single-post">
-            <h1>{{ page.title }}</h1>
-            <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
-            <div class="post-content">
-              {{ content }}
-            </div>
-          </article>
-        </div>
-      </div>
+<div class="blog-content">
+  <article class="single-post">
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+    <div class="post-content">
+      {{ content }}
     </div>
-
-
-
-  </body>
-</html>
+  </article>
+</div>

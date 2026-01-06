@@ -166,28 +166,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.profile-avatar {
-  position: relative;
-}
-
-.avatar-circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: linear-gradient(145deg, var(--nord8), var(--nord9));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid var(--nord7);
-  box-shadow: 0 10px 30px rgba(143, 188, 187, 0.2);
-}
-
-.avatar-icon {
-  color: var(--nord6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* Blog Content */
 .blog-content {
@@ -268,12 +246,7 @@ body {
   color: var(--nord8);
 }
 
-.post-separator {
-  border: none;
-  border-top: 2px solid var(--nord3);
-  margin: 2.5rem 0;
-  opacity: 0.5;
-}
+
 
 .post-preview .post-content h1,
 .post-preview .post-content h2,
@@ -395,25 +368,9 @@ body {
   opacity: 0.4;
 }
 
-/* Social Share */
-.social-share {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background: rgba(59, 66, 82, 0.9);
-  padding: 1rem 1.5rem;
-  border-radius: 30px;
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--nord3);
-}
 
-.social-share span {
-  font-size: 0.9rem;
-  color: var(--nord9);
-}
+
+
 
 .share-buttons {
   display: flex;
@@ -579,37 +536,7 @@ body {
   color: var(--nord4);
 }
 
-.search-container input {
-  background: none;
-  border: none;
-  outline: none;
-  color: var(--nord6);
-  font-size: 0.85rem;
-  font-family: inherit;
-  padding: 0.6rem 0.8rem;
-  width: 300px;
-}
 
-.search-container input::placeholder {
-  color: var(--nord3);
-}
-
-.search-container .search-icon {
-  cursor: pointer;
-  color: var(--nord4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  flex-shrink: 0;
-}
-
-.search-container .search-icon:hover {
-  color: var(--nord8);
-  background: rgba(136, 192, 208, 0.1);
-}
 
 
 
@@ -623,11 +550,7 @@ body {
     padding: 1.5rem;
   }
   
-  .social-share {
-    bottom: 1rem;
-    right: 1rem;
-    padding: 0.8rem 1rem;
-  }
+
   
   .nav-container {
     padding: 0 1rem;
@@ -849,12 +772,7 @@ body {
   font-weight: 500;
 }
 
-.pagination-info {
-  font-size: 0.8rem;
-  color: var(--nord4);
-  font-style: normal;
-  opacity: 0.8;
-}
+
 
 /* Responsive Pagination */
 @media (max-width: 768px) {
@@ -878,8 +796,5 @@ body {
     font-size: 0.85rem;
   }
   
-  .pagination-info {
-    font-size: 0.75rem;
-    margin-top: 0.25rem;
-  }
+
 }

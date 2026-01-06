@@ -11,17 +11,5 @@ permalink: /search/
   </div>
 </div>
 
-<script>
-  const searchData = [
-    {% for post in site.posts %}
-    {
-      title: {{ post.title | jsonify }},
-      content: {{ post.content | strip_html | jsonify }},
-      url: {{ post.url | jsonify }},
-      date: {{ post.date | date: "%B %d, %Y" | jsonify }},
-      excerpt: {{ post.excerpt | strip_html | truncatewords: 30 | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
-</script>
+{% include search-data.html %}
 <script src="/assets/js/search.js"></script>

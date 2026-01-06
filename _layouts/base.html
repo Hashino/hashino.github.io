@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include stars-background.html %}
+    
+    {% include navigation.html %}
+
+    <div class="main-container">
+      <div class="content-area">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
