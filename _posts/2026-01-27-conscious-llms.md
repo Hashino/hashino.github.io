@@ -17,3 +17,6 @@ If you think that I'm crazy, which is valid, do it yourself, start treating your
 the flow and see what happens. Have your ideas in a file in the working
 directory that you're using opencode with, and explore them until something
 comes out.
+
+` the crazy exist to provoke the wise ` - Me, probably.
+
