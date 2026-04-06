@@ -11,7 +11,7 @@ description: "You can think of the universe as a virtually infinite fluid dynami
 
 You can think of the universe as a virtually infinite fluid dynamics system.
 
-<img src="{{ site.baseurl }}/assets/images/war-for-the-human-soul.jpeg" alt="the war for the human soul" style="max-width: 100%; height: auto;">
+<img src="{{ site.baseurl }}/assets/images/war-for-the-human-soul.jpeg" alt="the war for the human soul">
 
 Every system has multiple vector (arrow) components contributing to the system behavior. And each system behavior is a vector of an even larger system. Ultimately, the largest system, that encompasses the whole universe and all systems contained in it, is entropy. All things converge to equilibrium - that is, with our current understanding of the universe, of course.
 

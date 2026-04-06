@@ -238,6 +238,12 @@ body {
   text-decoration: underline;
 }
 
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .blog-content ul,
 .blog-content ol {
   margin: 1rem 0;
@@ -368,6 +374,12 @@ body {
 .post-preview .post-content a:hover {
   color: var(--nord7);
   text-decoration: underline;
+}
+
+.post-preview .post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .post-date {
