@@ -19,9 +19,7 @@ The problem is that we are constantly bombarded with so much information that wh
 
 Over time, we become so attuned to this process, that whenever we try to structure a solid way of understanding reality, before even beginning, we already found its limitations.  This makes our minds become less of a temple or palace that you plan, build and maintain; and more of a favela: forced to keep growing and changing to house way more inhabitants than it ever should.
 
-[- - 
-
-](https://substackcdn.com/image/fetch/$s_!UNu_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1057675a-652c-47d5-a3e4-d138364220a0_1097x701.jpeg)
+![favelization mind map]({{ site.baseurl }}/assets/images/favelization-mind-map.jpeg)
 A place of constant change and creation. A place that each day has more inhabitants than the less. A violent place where inhabitants constantly die. A place where the lack of resources make many struggle. A place of adaptation.
 
 This is our minds.
