@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #8: Last Breath"
 date: 2026-01-22 03:16:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #8 - System continuing while hashino gets slower"
 ---

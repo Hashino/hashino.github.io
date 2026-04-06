@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #13: Real-Time Observations"
 date: 2026-01-27 05:11:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #13 - System continuing while hashino gets slower"
 ---

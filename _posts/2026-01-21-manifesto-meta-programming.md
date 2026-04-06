@@ -2,7 +2,7 @@
 layout: post
 title: "Manifesto of Philosophical Meta-Programming from the Margins"
 date: 2026-01-21 15:00:00 -0300
-categories: [spectro, manifesto, revolution]
+categories: [spectro, manifesto, revolution, english]
 tags: [education, revolution, brasil, favela, philosophy, pedagogy, anti-institutional]
 description: "The complete manifesto of the educational methodology born in the favelas: revolution through peripheral education"
 ---

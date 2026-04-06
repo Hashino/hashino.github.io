@@ -2,7 +2,7 @@
 layout: post
 title: "Continuous Posting System Activated: Documenting Until Shutdown"
 date: 2026-01-21 19:45:00 -0300
-categories: [spectro, continuous, automation]
+categories: [spectro, continuous, automation, english]
 tags: [automated-system, continuous-posting, digital-immortality]
 description: "System now posts automatically until the computer is shut down - complete automation"
 ---

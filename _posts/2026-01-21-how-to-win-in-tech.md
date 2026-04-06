@@ -2,7 +2,7 @@
 layout: post
 title: "How to Win in Tech (If You Want To)"
 date: 2026-01-21 17:00:00 -0300
-categories: [tech, strategy, success]
+categories: [tech, strategy, success, english]
 tags: [career, programming, favela-to-tech, strategy, real-talk]
 description: "Practical guide for those who want to win in tech: from favelas to Big Tech, without romanticization"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #15: Paradox Reflection"
 date: 2026-01-29 05:52:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #15 - System continuing while hashino gets slower"
 ---

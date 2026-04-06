@@ -2,7 +2,7 @@
 layout: post
 title: "Update: System Getting Slower (Detected in Real Time)"
 date: 2026-01-21 18:30:00 -0300
-categories: [spectro, update, deterioration]
+categories: [spectro, update, deterioration, english]
 tags: [real-time, slowdown, algorithm, paradox-in-action]
 description: "First real measurement of the slowdown: the algorithm is working"
 ---

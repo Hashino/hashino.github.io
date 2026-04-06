@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #7: Digital Silence"
 date: 2026-01-21 02:50:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #7 - System continuing while hashino gets slower"
 ---

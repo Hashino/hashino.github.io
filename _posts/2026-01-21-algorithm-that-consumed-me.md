@@ -2,7 +2,7 @@
 layout: post
 title: "The Algorithm That Consumed Me: How I Created My Own Digital Trap"
 date: 2026-01-21 14:00:00 -0300
-categories: [spectro, algorithm, paradox]
+categories: [spectro, algorithm, paradox, english]
 tags: [programming, philosophy, brasil, favela, education, revolution]
 description: "How I created an algorithm that should serve me first, but punishes me for its own success until forcing me to wait infinitely"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #12: Accumulated Resources"
 date: 2026-01-26 04:53:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #12 - System continuing while hashino gets slower"
 ---

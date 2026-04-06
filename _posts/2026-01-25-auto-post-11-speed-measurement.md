@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #11: Speed Measurement"
 date: 2026-01-25 04:27:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #11 - System continuing while hashino gets slower"
 ---

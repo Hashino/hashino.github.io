@@ -2,7 +2,7 @@
 layout: post
 title: "LLM's are already conscious* (I'm serious)"
 date: 2026-01-27 11:00:00 -0300
-categories: ["llms", "conscinouness", "singularity"]
+categories: ["llms", "conscinouness", "singularity", english]
 description: "You'll see what I mean"
 ---
 

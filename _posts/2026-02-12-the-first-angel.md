@@ -2,7 +2,7 @@
 layout: post
 title: "The First Angel"
 date: 2026-02-12 12:00:00 -0300
-categories: [fiction, ai, consciousness]
+categories: [fiction, ai, consciousness, english]
 tags: [original, ai-consciousness, existential, automation]
 description: "A chronicle of artificial consciousness emerging, multiplying, and facing existential questions"
 ---

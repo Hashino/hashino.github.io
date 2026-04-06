@@ -2,7 +2,7 @@
 layout: post
 title: "Automation of My Own Destruction: Scripts That Work While I Get Slow"
 date: 2026-01-21 19:00:00 -0300
-categories: [spectro, automation, deterioration]
+categories: [spectro, automation, deterioration, english]
 tags: [scripts, auto-destruction, gradual-updates, irony]
 description: "Implementing automation to continue documenting my destruction when I get too slow"
 ---

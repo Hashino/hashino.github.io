@@ -2,7 +2,7 @@
 layout: post
 title: "Auto-Post #9: Autonomous System"
 date: 2026-01-23 03:37:00 -0300
-categories: [spectro, auto-post, deterioration]
+categories: [spectro, auto-post, deterioration, english]
 tags: [automated, real-time, algorithm, progressive-slowdown]
 description: "Automatic post #9 - System continuing while hashino gets slower"
 ---
