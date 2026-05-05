@@ -41,4 +41,12 @@ The solution is probably a trained alignment layer between the two spaces — es
 
 What does exist is the architecture. The shape of what would need to be built. And the observation that the bottleneck in AI-assisted programming isn't intelligence — the remote models are already remarkable — it's the channel. What gets sent, when, how it's compressed, who decides what to investigate. That's the unsolved layer.
 
+---
+
+It's worth being concrete about what this unlocks, because it's a different category of tool than what exists today.
+
+A model that tracks process — not just state — can tell you there's a better way to solve the problem you're currently solving. It can notice you're heading toward a race condition before you've written the code that introduces it. It can recognize that a library exists which would eliminate the pattern you've been manually implementing for the last forty minutes. It can see that the abstraction you're building in this file is going to collide with a decision made in another file three sessions ago.
+
+None of this is next-line prediction. It's next-hour guidance. The difference between a tool that completes your sentences and one that understands what you're trying to say.
+
 The editor sees your code. It should be able to see you working.
