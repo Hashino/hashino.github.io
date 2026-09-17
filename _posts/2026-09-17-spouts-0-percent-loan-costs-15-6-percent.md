@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spout's 0% Loan Costs 15.6%"
-date: 2026-09-17 14:30:00 -0300
+date: 2026-09-17 11:00:00 -0300
 categories: defi rwa teardown
 ---
 
